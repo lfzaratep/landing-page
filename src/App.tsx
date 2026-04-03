@@ -67,12 +67,17 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         >
-          <button className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-black bg-yellow-400 rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(250,204,21,0.15)] hover:shadow-[0_0_60px_rgba(250,204,21,0.3)]">
+          <a 
+            href="https://book.squareup.com/appointments/qkc4gf908re919/location/LNE5YPZD28KZ7/availability"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-black bg-yellow-400 rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(250,204,21,0.15)] hover:shadow-[0_0_60px_rgba(250,204,21,0.3)]"
+          >
             <span className="relative z-10 flex items-center gap-2">
-              Start Your Project
+              Book Your Free Consultation
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
-          </button>
+          </a>
         </motion.div>
 
       </main>
