@@ -68,7 +68,7 @@ export default function App() {
           transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         >
           <a 
-            href="https://book.squareup.com/appointments/qkc4gf908re919/location/LNE5YPZD28KZ7/availability"
+            href="https://book.squareup.com/appointments/qkc4gf908re919/location/LNE5YPZD28KZ7/services/FOEDALSWDKDJ3UOZY5YE4OE5"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-black bg-yellow-400 rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(250,204,21,0.15)] hover:shadow-[0_0_60px_rgba(250,204,21,0.3)]"
